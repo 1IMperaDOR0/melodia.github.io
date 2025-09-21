@@ -19,6 +19,32 @@ function Contato() {
             </div>
         </div>
 
+        <div className="bg-[#FF2C63] w-[100vw] text-white p-15 flex flex-col justify-center items-center text-center">
+                <h2 className="text-4xl font-bold mb-5">Envie sua mensagem</h2>
+                <p className="max-w-150 mb-10">Preencha o formulário abaixo e responderemos o mais rápido possível.</p>
+                <form className="bg-white rounded-2xl p-10 w-[90%] md:w-[60%] lg:w-[40%] text-black">
+                    <input 
+                        type="text" 
+                        placeholder="Seu nome" 
+                        className="w-full mb-4 px-4 py-3 rounded-md border border-gray-300 outline-none" 
+                        required
+                    />
+                    <input 
+                        type="email" 
+                        placeholder="Seu e-mail" 
+                        className="w-full mb-4 px-4 py-3 rounded-md border border-gray-300 outline-none" 
+                        required
+                    />
+                    <textarea 
+                        placeholder="Sua mensagem" 
+                        className="w-full mb-4 px-4 py-3 rounded-md border border-gray-300 outline-none h-40 resize-none" 
+                        required
+                    />
+                    <button className="w-full bg-[#7B00FF] text-white py-3 rounded-full cursor-pointer hover:bg-[#5a00bb]">
+                        Enviar
+                    </button>
+                </form>
+            </div>
 
 
 
