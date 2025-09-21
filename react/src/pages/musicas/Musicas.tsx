@@ -7,6 +7,10 @@ import slavic from "../../assets/images/slavixqueen.webp";
 import wickedgame from "../../assets/images/wickedgame.webp";
 import radioactive from "../../assets/images/radioactive.jpg";
 import mockingbird from "../../assets/images/mockingbird.jpg";
+import maneira from "../../assets/images/maneira.jpg";
+import temporal from "../../assets/images/temporal.jpg";
+import zombie from "../../assets/images/zombie.jpg";
+import atravessei from "../../assets/images/atravessei.webp";
 {/*Capa de músicas */}
 import album1 from "../../assets/images/album1.jpg";
 import album2 from "../../assets/images/album2.jpg";
@@ -91,23 +95,23 @@ function Musicas() {
                         </div>
                         <div className="hidden lg:block">
                             <div className="w-80 flex hover:bg-[#542685]">
-                                <img src="" alt="" className="w-10 h-10" />
-                                <p className="mt-2 ml-1 text-white">==================</p>
+                                <img src={maneira} alt="" className="w-10 h-10" />
+                                <p className="mt-2 ml-1 text-white">À Sua Maneira - Capital Inicial</p>
                             </div>
                             <div className="w-90 h-0.5 bg-[#370072] mb-1 mt-1"></div>
                             <div className="w-80 flex hover:bg-[#542685]">
-                                <img src="" alt="" className="w-10 h-10" />
-                                <p className="mt-2 ml-1 text-white">==================</p>
+                                <img src={temporal} alt="" className="w-10 h-10" />
+                                <p className="mt-2 ml-1 text-white">Temporal - Hungria</p>
                             </div>
                             <div className="w-90 h-0.5 bg-[#370072] mb-1 mt-1"></div>
                             <div className="w-80 flex hover:bg-[#542685]">
-                                <img src="" alt="" className="w-10 h-10" />
-                                <p className="mt-2 ml-1 text-white">==================</p>
+                                <img src={zombie} alt="" className="w-10 h-10" />
+                                <p className="mt-2 ml-1 text-white">Zombie - The Cranberries</p>
                             </div>
                             <div className="w-90 h-0.5 bg-[#370072] mb-1 mt-1"></div>
                             <div className="w-80 flex hover:bg-[#542685]">
-                                <img src="" alt="" className="w-10 h-10" />
-                                <p className="mt-2 ml-1 text-white">==================</p>
+                                <img src={atravessei} alt="" className="w-10 h-10" />
+                                <p className="mt-2 ml-1 text-white">Atravessei São Paulo - Duzz</p>
                             </div>
                         </div>
                     </div>
