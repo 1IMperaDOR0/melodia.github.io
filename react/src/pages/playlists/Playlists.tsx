@@ -47,9 +47,10 @@ function Playlists() {
                         <div className="rounded-xl overflow-hidden bg-black max-w-[160px] md:max-w-[200px] lg:max-w-[300px] mx-auto"><img src={play6} className="aspect-square w-full shadow-lg object-cover transition duration-300 ease-in-out hover:scale-105" alt="Playlist" /></div>
                         
                     </div>
-                     <p className="text-[#39FF14] text-base md:text-lg mt-10 max-w-xl text-center font-family: Instrument Sans, sans-serif;">
-                        Carregar Mais
-                    </p>
+                     <button
+                            className="bg-[#FF2C63] text-[#4AFF4A] font-bold py-3 px-8 rounded-full mt-4 w-fit shadow-lg hover:bg-[#e02657] transition-colors font-family: Instrument Sans, sans-serif;">
+                             CARREGAR MAIS
+                        </button>
                 </section>
 
                 <section className="w-full flex-col md:flex-row items-center justify-between gap-8 bg-white">
