@@ -24,7 +24,7 @@ function Playlists() {
                         </span>
                     </div>
                     <div className="flex-1 flex justify-center items-center">
-                        <img src={play3} className="rounded-xl w-40 h-40 md:w-80 md:h-80 shadow-lg object-cover"
+                        <img src={play3} className="rounded-xl w-60 h-60 md:w-80 md:h-80 lg:w-100 lg:h-100 shadow-lg object-cover"
                             alt="Playlist" />
                     </div>
                 </section>
@@ -37,18 +37,18 @@ function Playlists() {
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
                         magna aliqua.
                     </p>
-                    <div className="grid grid-cols-2 md:grid-cols-3 gap-15 mt-4">
-                        <img src={play1} className="rounded-xl w-40 h-40 md:w-80 md:h-80 shadow-lg object-cover"
+                    <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-15 mt-4">
+                        <img src={play1} className="rounded-xl w-60 h-60 md:w-80 md:h-80 lg:w-100 lg:h-100 shadow-lg object-cover"
                             alt="Playlist" />
-                        <img src={play2} className="rounded-xl w-40 h-40 md:w-80 md:h-80 shadow-lg object-cover"
+                        <img src={play2} className="rounded-xl w-60 h-60 md:w-80 md:h-80 lg:w-100 lg:h-100 shadow-lg object-cover"
                             alt="Playlist" />
-                        <img src={play3} className="rounded-xl w-40 h-40 md:w-80 md:h-80 shadow-lg object-cover"
+                        <img src={play3} className="rounded-xl w-60 h-60 md:w-80 md:h-80 lg:w-100 lg:h-100 shadow-lg object-cover"
                             alt="Playlist" />
-                        <img src={play4} className="rounded-xl w-40 h-40 md:w-80 md:h-80 shadow-lg object-cover"
+                        <img src={play4} className="rounded-xl w-60 h-60 md:w-80 md:h-80 lg:w-100 lg:h-100 shadow-lg object-cover"
                             alt="Playlist" />
-                        <img src={play5} className="rounded-xl w-40 h-40 md:w-80 md:h-80 shadow-lg object-cover"
+                        <img src={play5} className="rounded-xl w-60 h-60 md:w-80 md:h-80 lg:w-100 lg:h-100 shadow-lg object-cover"
                             alt="Playlist" />
-                        <img src={play6} className="rounded-xl w-40 h-40 md:w-80 md:h-80  object-cover"
+                        <img src={play6} className="rounded-xl w-60 h-60 md:w-80 md:h-80 lg:w-100 lg:h-100 shadow-lg object-cover"
                             alt="Playlist" />    
                         
                     </div>
@@ -59,7 +59,7 @@ function Playlists() {
 
                 <section className="w-full flex-col md:flex-row items-center justify-between gap-8 bg-white">
                     <div
-                        className= "bg-[url('../assets/images/smiley-young-friends-together-copy-space.jpg')] bg-center bg-cover h-[100vh] w-[100vw] text-white p-15 flex flex-col justify-center flex-1 flex flex-col gap-4">
+                        className= "bg-[url('../assets/images/smiley-young-friends-together-copy-space.jpg')] bg-center bg-cover md:h-[90vh] md:w-[90vw] lg:h-[100vh] lg:w-[100vw] text-white p-15 flex flex-col justify-center flex-1 flex flex-col gap-4">
                         <h2 className="text-[#FF2C63] font-bold text-3xl md:text-5xl font-family: Instrument Sans, sans-serif;">
                             COMPARTILHAR</h2>
                         <p className="text-[#FF2C63] text-base md:text-lg font-family: Instrument Sans, sans-serif;">
