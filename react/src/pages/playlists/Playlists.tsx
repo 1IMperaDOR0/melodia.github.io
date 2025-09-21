@@ -24,8 +24,9 @@ function Playlists() {
                         </span>
                     </div>
                     <div className="flex-1 flex justify-center items-center">
-                        <img src={play3} className="rounded-xl w-60 h-60 md:w-80 md:h-80 lg:w-100 lg:h-100 shadow-lg object-cover"
-                            alt="Playlist" />
+                        <div className="rounded-xl overflow-hidden bg-black max-w-[260px] md:max-w-[300px] lg:max-w-[400px] mx-auto">
+                            <img src={play3} className="aspect-square w-full shadow-lg object-cover transition duration-300 ease-in-out hover:scale-105" alt="Playlist" />
+                        </div>
                     </div>
                 </section>
 
@@ -37,19 +38,13 @@ function Playlists() {
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
                         magna aliqua.
                     </p>
-                    <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-15 mt-4">
-                        <img src={play1} className="rounded-xl w-60 h-60 md:w-80 md:h-80 lg:w-100 lg:h-100 shadow-lg object-cover"
-                            alt="Playlist" />
-                        <img src={play2} className="rounded-xl w-60 h-60 md:w-80 md:h-80 lg:w-100 lg:h-100 shadow-lg object-cover"
-                            alt="Playlist" />
-                        <img src={play3} className="rounded-xl w-60 h-60 md:w-80 md:h-80 lg:w-100 lg:h-100 shadow-lg object-cover"
-                            alt="Playlist" />
-                        <img src={play4} className="rounded-xl w-60 h-60 md:w-80 md:h-80 lg:w-100 lg:h-100 shadow-lg object-cover"
-                            alt="Playlist" />
-                        <img src={play5} className="rounded-xl w-60 h-60 md:w-80 md:h-80 lg:w-100 lg:h-100 shadow-lg object-cover"
-                            alt="Playlist" />
-                        <img src={play6} className="rounded-xl w-60 h-60 md:w-80 md:h-80 lg:w-100 lg:h-100 shadow-lg object-cover"
-                            alt="Playlist" />    
+                    <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-4 justify-center">
+                        <div className="rounded-xl overflow-hidden bg-black max-w-[160px] md:max-w-[200px] lg:max-w-[300px] mx-auto"><img src={play1} className="aspect-square w-full shadow-lg object-cover transition duration-300 ease-in-out hover:scale-105" alt="Playlist" /></div>
+                        <div className="rounded-xl overflow-hidden bg-black max-w-[160px] md:max-w-[200px] lg:max-w-[300px] mx-auto"><img src={play2} className="aspect-square w-full shadow-lg object-cover transition duration-300 ease-in-out hover:scale-105" alt="Playlist" /></div>
+                        <div className="rounded-xl overflow-hidden bg-black max-w-[160px] md:max-w-[200px] lg:max-w-[300px] mx-auto"><img src={play3} className="aspect-square w-full shadow-lg object-cover transition duration-300 ease-in-out hover:scale-105" alt="Playlist" /></div>
+                        <div className="rounded-xl overflow-hidden bg-black max-w-[160px] md:max-w-[200px] lg:max-w-[300px] mx-auto"><img src={play4} className="aspect-square w-full shadow-lg object-cover transition duration-300 ease-in-out hover:scale-105" alt="Playlist" /></div>
+                        <div className="rounded-xl overflow-hidden bg-black max-w-[160px] md:max-w-[200px] lg:max-w-[300px] mx-auto"><img src={play5} className="aspect-square w-full shadow-lg object-cover transition duration-300 ease-in-out hover:scale-105" alt="Playlist" /></div>
+                        <div className="rounded-xl overflow-hidden bg-black max-w-[160px] md:max-w-[200px] lg:max-w-[300px] mx-auto"><img src={play6} className="aspect-square w-full shadow-lg object-cover transition duration-300 ease-in-out hover:scale-105" alt="Playlist" /></div>
                         
                     </div>
                      <p className="text-[#39FF14] text-base md:text-lg mt-10 max-w-xl text-center font-family: Instrument Sans, sans-serif;">
