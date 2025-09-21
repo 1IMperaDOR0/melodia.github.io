@@ -1,10 +1,10 @@
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route, NavLink, Link } from 'react-router-dom'
 import Home from './pages/home/Home'
-// import Artistas from './pages/artistas/Artistas'
-// import Musicas from './pages/musicas/Musicas'
-// import Playlists from './pages/playlists/Playlists'
-// import Conta from './pages/conta/Conta'
-// import Contato from './pages/contato/Contato'
+import Artistas from './pages/artistas/Artistas'
+import Musicas from './pages/musicas/Musicas'
+import Playlists from './pages/playlists/Playlists'
+import Conta from './pages/conta/Conta'
+import Contato from './pages/contato/Contato'
 
 function App() {
   return (
@@ -13,11 +13,66 @@ function App() {
         <h1 className="text-2xl font-bold">melodia</h1>
         <nav>
           <ul className="flex gap-7">
-            <li><Link to="/" className="cursor-pointer text-[#FF2C63] border-b-2">HOME</Link></li>
-            <li><Link to="/artistas" className="cursor-pointer hover:text-[#FF2C63] hover:border-b-2">ARTISTAS</Link></li>
-            <li><Link to="/musicas" className="cursor-pointer hover:text-[#FF2C63] hover:border-b-2">MÚSICAS</Link></li>
-            <li><Link to="/playlists" className="cursor-pointer hover:text-[#FF2C63] hover:border-b-2">PLAYLISTS</Link></li>
-            <li><Link to="/conta" className="cursor-pointer hover:text-[#FF2C63] hover:border-b-2">CONTA</Link></li>
+            <li>
+              <NavLink 
+                  to="/" 
+                  className={({ isActive }) => 
+                    isActive 
+                      ? "cursor-pointer text-[#FF2C63] border-b-2" 
+                      : "cursor-pointer hover:text-[#FF2C63] hover:border-b-2"
+                  }
+              >
+                HOME
+              </NavLink>
+            </li>
+            <li>
+              <NavLink 
+                  to="/artistas" 
+                  className={({ isActive }) => 
+                    isActive 
+                      ? "cursor-pointer text-[#FF2C63] border-b-2" 
+                      : "cursor-pointer hover:text-[#FF2C63] hover:border-b-2"
+                  }
+              >
+                ARTISTAS
+              </NavLink>
+            </li>
+            <li>
+              <NavLink 
+                  to="/musicas" 
+                  className={({ isActive }) => 
+                    isActive 
+                      ? "cursor-pointer text-[#FF2C63] border-b-2" 
+                      : "cursor-pointer hover:text-[#FF2C63] hover:border-b-2"
+                  }
+              >
+                MÚSICAS
+              </NavLink>
+            </li>
+            <li>
+              <NavLink 
+                  to="/playlists" 
+                  className={({ isActive }) => 
+                    isActive 
+                      ? "cursor-pointer text-[#FF2C63] border-b-2" 
+                      : "cursor-pointer hover:text-[#FF2C63] hover:border-b-2"
+                  }
+              >
+                PLAYLISTS
+              </NavLink>
+            </li>
+            <li>
+              <NavLink 
+                  to="/conta" 
+                  className={({ isActive }) => 
+                    isActive 
+                      ? "cursor-pointer text-[#FF2C63] border-b-2" 
+                      : "cursor-pointer hover:text-[#FF2C63] hover:border-b-2"
+                  }
+              >
+                CONTA
+              </NavLink>
+            </li>
           </ul>
         </nav>
       </header>
@@ -25,11 +80,11 @@ function App() {
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
-          {/* <Route path="/artistas" element={<Artistas />} />
+          <Route path="/artistas" element={<Artistas />} />
           <Route path="/musicas" element={<Musicas />} />
           <Route path="/playlists" element={<Playlists />} />
           <Route path="/conta" element={<Conta />} />
-          <Route path="/contato" element={<Contato />} /> */}
+          <Route path="/contato" element={<Contato />} />
         </Routes>
       </main>
 
@@ -53,7 +108,7 @@ function App() {
               <li><a href="#">Nossa missão</a></li>
               <li><a href="#">Equipe</a></li>
               <li><a href="#">Parcerias</a></li>
-              <li><Link to="/contato" className="cursor-pointer hover:text-[#FF2C63] hover:border-b-2">CONTATO</Link></li>
+              <li><Link to="/contato">Contato</Link></li>
             </ul>
           </div>
 
