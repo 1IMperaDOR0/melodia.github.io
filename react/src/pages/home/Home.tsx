@@ -4,7 +4,6 @@ import carol from '../../assets/images/carol.png'
 import michael from '../../assets/images/michael.png'
 
 function Home() {
-
     return (
         <>
             <div className="bg-[url('../assets/images/hero_section.jpg')] bg-center bg-cover h-[100vh] w-[100vw] text-white p-15 flex flex-col justify-center">
