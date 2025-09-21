@@ -31,26 +31,26 @@ function Musicas() {
                     </div>
                 </div>
             </div>
-            <div className="bg-[#FF2C63] h-auto p-15">
+            <div className="bg-[#7B00FF] h-auto p-15">
                 <p className="text-2xl text-white mb-3">Músicas mais recentes &gt;</p>
                 <div>
-                    <div className="h-auto flex gap-3 justify-center bg-[#db003a] p-2 rounded-lg">
+                    <div className="h-auto flex gap-3 justify-center bg-[#460091] p-2 rounded-lg">
                         <div>
                             <div className="w-80 flex">
                                 <img src={natural} alt="" className="w-10 h-10" />
                                 <p className="mt-2 ml-1 text-white">Natural - Imagine Dragons</p>
                             </div>
-                            <div className="w-90 h-0.5 bg-[#f8245d] mb-1 mt-1"></div>
+                            <div className="w-90 h-0.5 bg-[#370072] mb-1 mt-1"></div>
                             <div className="w-80 flex">
                                 <img src={rise} alt="" className="w-10 h-10" />
                                 <p className="mt-2 ml-1 text-white">Rise - Skillet</p>
                             </div>
-                            <div className="w-90 h-0.5 bg-[#f8245d] mb-1 mt-1"></div>
+                            <div className="w-90 h-0.5 bg-[#370072] mb-1 mt-1"></div>
                             <div className="w-80 flex">
                                 <img src={mtr} alt="" className="w-10 h-10" />
                                 <p className="mt-2 ml-1 text-white">Miss The Rage - Jeethz</p>
                             </div>
-                            <div className="w-90 h-0.5 bg-[#f8245d] mb-1 mt-1"></div>
+                            <div className="w-90 h-0.5 bg-[#370072] mb-1 mt-1"></div>
                             <div className="w-80 flex">
                                 <img src={empitness} alt="" className="w-10 h-10" />
                                 <p className="mt-2 ml-1 text-white">The Emptiness Machine - Linkin Park</p>
@@ -61,17 +61,17 @@ function Musicas() {
                                 <img src={slavic} alt="" className="w-10 h-10" />
                                 <p className="mt-2 ml-1 text-white">Slavic Queen - Filip Lackovic</p>
                             </div>
-                            <div className="w-90 h-0.5 bg-[#f8245d] mb-1 mt-1"></div>
+                            <div className="w-90 h-0.5 bg-[#370072] mb-1 mt-1"></div>
                             <div className="w-80 flex">
                                 <img src={wickedgame} alt="" className="w-10 h-10" />
                                 <p className="mt-2 ml-1 text-white">Wicked Game - Chris Isaak</p>
                             </div>
-                            <div className="w-90 h-0.5 bg-[#f8245d] mb-1 mt-1"></div>
+                            <div className="w-90 h-0.5 bg-[#370072] mb-1 mt-1"></div>
                             <div className="w-80 flex">
                                 <img src="" alt="" className="w-10 h-10" />
                                 <p className="mt-2 ml-1 text-white">==================</p>
                             </div>
-                            <div className="w-90 h-0.5 bg-[#f8245d] mb-1 mt-1"></div>
+                            <div className="w-90 h-0.5 bg-[#370072] mb-1 mt-1"></div>
                             <div className="w-80 flex">
                                 <img src="" alt="" className="w-10 h-10" />
                                 <p className="mt-2 ml-1 text-white">==================</p>
@@ -82,17 +82,17 @@ function Musicas() {
                                 <img src="" alt="" className="w-10 h-10" />
                                 <p className="mt-2 ml-1 text-white">==================</p>
                             </div>
-                            <div className="w-90 h-0.5 bg-[#f8245d] mb-1 mt-1"></div>
+                            <div className="w-90 h-0.5 bg-[#370072] mb-1 mt-1"></div>
                             <div className="w-80 flex">
                                 <img src="" alt="" className="w-10 h-10" />
                                 <p className="mt-2 ml-1 text-white">==================</p>
                             </div>
-                            <div className="w-90 h-0.5 bg-[#f8245d] mb-1 mt-1"></div>
+                            <div className="w-90 h-0.5 bg-[#370072] mb-1 mt-1"></div>
                             <div className="w-80 flex">
                                 <img src="" alt="" className="w-10 h-10" />
                                 <p className="mt-2 ml-1 text-white">==================</p>
                             </div>
-                            <div className="w-90 h-0.5 bg-[#f8245d] mb-1 mt-1"></div>
+                            <div className="w-90 h-0.5 bg-[#370072] mb-1 mt-1"></div>
                             <div className="w-80 flex">
                                 <img src="" alt="" className="w-10 h-10" />
                                 <p className="mt-2 ml-1 text-white">==================</p>
@@ -100,6 +100,9 @@ function Musicas() {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className="bg-[#FF2C63] h-auto p-15">
+                <p>Lançamentos de Álbuns &gt;</p>
             </div>
         </>
     )
