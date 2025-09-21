@@ -87,21 +87,21 @@ function App() {
           <Route path="/contato" element={<Contato />} />
         </Routes>
       </main>
-
+      
       <footer className="bg-[#7B00FF] text-white py-10 px-16 flex flex-col items-center gap-5">
-        <div className="grid grid-cols-5 gap-10">
+        <div className="grid grid-cols-2 gap-10 lg:grid-cols-5 md:grid-cols-3">
           <div>
             <h2 className="text-2xl font-bold mb-3">melodia</h2>
             <p className="text-sm mb-6">Transformamos sons em experiências. A melodia é onde a paixão pela música encontra a inovação.</p>
             <div className="flex gap-3">
-              <a href="#" className="w-10 h-10 bg-gray-400 rounded-full flex justify-center items-center"><i className="fab fa-facebook"></i></a>
-              <a href="#" className="w-10 h-10 bg-gray-400 rounded-full flex justify-center items-center"><i className="fab fa-instagram"></i></a>
-              <a href="#" className="w-10 h-10 bg-gray-400 rounded-full flex justify-center items-center"><i className="fab fa-twitter"></i></a>
-              <a href="#" className="w-10 h-10 bg-gray-400 rounded-full flex justify-center items-center"><i className="fab fa-youtube"></i></a>
+              <a href="#" className="h-8 w-8 bg-gray-400 rounded-full flex justify-center items-center"><i className="fab fa-facebook"></i></a>
+              <a href="#" className="h-8 w-8 bg-gray-400 rounded-full flex justify-center items-center"><i className="fab fa-instagram"></i></a>
+              <a href="#" className="h-8 w-8 bg-gray-400 rounded-full flex justify-center items-center"><i className="fab fa-twitter"></i></a>
+              <a href="#" className="h-8 w-8 bg-gray-400 rounded-full flex justify-center items-center"><i className="fab fa-youtube"></i></a>
             </div>
           </div>
 
-          <div>
+          <div className="lg:col-3">
             <h3 className="text-2xl font-bold mb-3">SOBRE</h3>
             <ul className="space-y-2 text-sm">
               <li><a href="#">Quem somos</a></li>
