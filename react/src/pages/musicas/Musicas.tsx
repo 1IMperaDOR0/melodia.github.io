@@ -20,7 +20,9 @@ import album5 from "../../assets/images/album5.jpg";
 import album6 from "../../assets/images/album6.jpg";
 import album7 from "../../assets/images/album7.jpg";
 {/*Áudio de músicas */}
-import audio1 from "../../assets/audios/audio1.opus";
+import audio1 from "../../assets/audios/audio1.mp3";
+import audio2 from "../../assets/audios/audio2.mp3";
+
 
 function Musicas() {
     return (
@@ -44,7 +46,7 @@ function Musicas() {
                             <div className="w-100 h-0.5 bg-[#f1f1f1] mb-1 ml-2"></div>
                         </div>
                         <img src={mtr} alt="" className="w-120 h-55 rounded-lg" />
-                        <audio src={audio1} controls autoPlay className="mt-1 w-full border border-[#724409] rounded-4xl "></audio>
+                        <audio src={audio2} controls autoPlay className="mt-1 w-full border border-[#724409] rounded-4xl "></audio>
                     </div>
                 </div>
             </div>
