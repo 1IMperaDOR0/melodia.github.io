@@ -19,36 +19,37 @@ import album4 from "../../assets/images/album4.jpg";
 import album5 from "../../assets/images/album5.jpg";
 import album6 from "../../assets/images/album6.jpg";
 import album7 from "../../assets/images/album7.jpg";
-
+{/*Áudio de músicas */}
+import audio1 from "../../assets/audios/audio1.opus";
 
 function Musicas() {
     return (
         <>
             <div className="p-15">
-                <p className="text-2xl">Novidades</p>
-                <div className="flex mt-3 flex-wrap gap-3">
-                    <div className="w-95 h-60 rounded-lg">
+                <p className="text-2xl">NOVIDADES </p>
+                <div className="flex mt-3 flex-wrap gap-3 justify-center">
+                    <div className="w-120 h-auto rounded-lg">
                         <p className="text-black text-xl ml-2">Natural</p>
                         <p className="text-gray-800 ml-2">Imagine Dragons</p>
-                        <div className="w-90 h-0.5 bg-[#f1f1f1] mb-1 ml-2"></div>
-                        <img src={natural} alt="" className="w-95 h-45 rounded-lg" />
+                        <div className="flex justify-center">
+                            <div className="w-100 h-0.5 bg-[#f1f1f1] mb-1 ml-2"></div>
+                        </div>
+                        <img src={natural} alt="" className="w-120 h-55 rounded-lg" />
+                        <audio src={audio1} controls autoPlay className="mt-1 w-full border border-[#097231] rounded-4xl "></audio>
                     </div>
-                    <div className="w-95 h-60 rounded-lg">
+                    <div className="w-120 h-auto rounded-lg">
                         <p className="text-black text-xl ml-2">Miss the Rage</p>
                         <p className="text-gray-800 ml-2">Jeethz</p>
-                        <div className="w-90 h-0.5 bg-[#f1f1f1] mb-1 ml-2"></div>
-                        <img src={mtr} alt="" className="w-95 h-45 rounded-lg" />
-                    </div>
-                    <div className="w-95 h-60 rounded-lg">
-                        <p className="text-black text-xl ml-2">Rise</p>
-                        <p className="text-gray-800 ml-2">Skillet</p>
-                        <div className="w-90 h-0.5 bg-[#f1f1f1] mb-1 ml-2"></div>
-                        <img src={rise} alt="" className="w-95 h-45 rounded-lg" />
+                        <div className="flex justify-center">
+                            <div className="w-100 h-0.5 bg-[#f1f1f1] mb-1 ml-2"></div>
+                        </div>
+                        <img src={mtr} alt="" className="w-120 h-55 rounded-lg" />
+                        <audio src={audio1} controls autoPlay className="mt-1 w-full border border-[#724409] rounded-4xl "></audio>
                     </div>
                 </div>
             </div>
             <div className="bg-[#7B00FF] h-auto p-15">
-                <p className="text-2xl text-white mb-3">Músicas mais recentes &gt;</p>
+                <p className="text-2xl text-white mb-3">MÚSICAS MAIS RECENTES &gt;</p>
                 <div>
                     <div className="h-auto flex gap-3 justify-center bg-[#460091] p-2 rounded-lg">
                         <div>
@@ -118,7 +119,7 @@ function Musicas() {
                 </div>
             </div>
             <div className="bg-[#FF2C63] h-auto py-15">
-                <p className="text-2xl mb-3 ml-15">Playlists &gt;</p>
+                <p className="text-2xl mb-3 ml-15">PLAYLIST &gt;</p>
                 <div className="flex flex-wrap gap-3 ml-15">
                     <div className="flex flex-col w-45">
                         <img src={album1} alt="" className="w-45 h-45" />
