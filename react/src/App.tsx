@@ -1,80 +1,33 @@
-import { BrowserRouter as Router, Routes, Route, NavLink, Link } from 'react-router-dom'
-import Home from './pages/home/Home'
-import Artistas from './pages/artistas/Artistas'
-import Musicas from './pages/musicas/Musicas'
-import Playlists from './pages/playlists/Playlists'
-import Conta from './pages/conta/Conta'
-import Contato from './pages/contato/Contato'
+import { useState, useEffect } from 'react';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import Home from './pages/home/Home';
+import Artistas from './pages/artistas/Artistas';
+import Musicas from './pages/musicas/Musicas';
+import Playlists from './pages/playlists/Playlists';
+import Conta from './pages/conta/Conta';
+import Contato from './pages/contato/Contato';
+import MenuWeb from './components/menuWeb';
+import MenuMobile from './components/menuMobile';
 
 function App() {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+
+    checkMobile();
+    window.addEventListener('resize', checkMobile);
+
+    return () => window.removeEventListener('resize', checkMobile);
+  }, []);
+
   return (
     <Router>
       <header className="bg-[#7B00FF] text-white h-20 px-15 flex justify-between items-center">
         <h1 className="text-2xl font-bold">melodia</h1>
-        <nav>
-          <ul className="flex gap-7">
-            <li>
-              <NavLink 
-                  to="/" 
-                  className={({ isActive }) => 
-                    isActive 
-                      ? "cursor-pointer text-[#FF2C63] border-b-2" 
-                      : "cursor-pointer hover:text-[#FF2C63] hover:border-b-2"
-                  }
-              >
-                HOME
-              </NavLink>
-            </li>
-            <li>
-              <NavLink 
-                  to="/artistas" 
-                  className={({ isActive }) => 
-                    isActive 
-                      ? "cursor-pointer text-[#FF2C63] border-b-2" 
-                      : "cursor-pointer hover:text-[#FF2C63] hover:border-b-2"
-                  }
-              >
-                ARTISTAS
-              </NavLink>
-            </li>
-            <li>
-              <NavLink 
-                  to="/musicas" 
-                  className={({ isActive }) => 
-                    isActive 
-                      ? "cursor-pointer text-[#FF2C63] border-b-2" 
-                      : "cursor-pointer hover:text-[#FF2C63] hover:border-b-2"
-                  }
-              >
-                MÚSICAS
-              </NavLink>
-            </li>
-            <li>
-              <NavLink 
-                  to="/playlists" 
-                  className={({ isActive }) => 
-                    isActive 
-                      ? "cursor-pointer text-[#FF2C63] border-b-2" 
-                      : "cursor-pointer hover:text-[#FF2C63] hover:border-b-2"
-                  }
-              >
-                PLAYLISTS
-              </NavLink>
-            </li>
-            <li>
-              <NavLink 
-                  to="/conta" 
-                  className={({ isActive }) => 
-                    isActive 
-                      ? "cursor-pointer text-[#FF2C63] border-b-2" 
-                      : "cursor-pointer hover:text-[#FF2C63] hover:border-b-2"
-                  }
-              >
-                CONTA
-              </NavLink>
-            </li>
-          </ul>
-        </nav>
+        {isMobile ? <MenuMobile /> : <MenuWeb />}
       </header>
 
       <main>
@@ -89,10 +42,10 @@ function App() {
       </main>
       
       <footer className="bg-[#7B00FF] text-white py-10 px-16 flex flex-col items-center gap-5">
-        <div className="grid grid-cols-2 gap-10 lg:grid-cols-5 md:grid-cols-3">
-          <div>
+        <div className="grid grid-cols-1 gap-10 lg:grid-cols-4 md:grid-cols-3">
+          <div className="flex flex-col justify-center items-center text-center lg:text-start lg:items-start md:text-start md:items-start">
             <h2 className="text-2xl font-bold mb-3">melodia</h2>
-            <p className="text-sm mb-6">Transformamos sons em experiências. A melodia é onde a paixão pela música encontra a inovação.</p>
+            <p className="text-sm mb-6 max-w-70">Transformamos sons em experiências. A melodia é onde a paixão pela música encontra a inovação.</p>
             <div className="flex gap-3">
               <a href="#" className="h-8 w-8 bg-gray-400 rounded-full flex justify-center items-center"><i className="fab fa-facebook"></i></a>
               <a href="#" className="h-8 w-8 bg-gray-400 rounded-full flex justify-center items-center"><i className="fab fa-instagram"></i></a>
@@ -101,7 +54,7 @@ function App() {
             </div>
           </div>
 
-          <div className="lg:col-3">
+          <div className="flex flex-col justify-center items-center text-center lg:items-start md:text-start md:items-start">
             <h3 className="text-2xl font-bold mb-3">SOBRE</h3>
             <ul className="space-y-2 text-sm">
               <li><a href="#">Quem somos</a></li>
@@ -112,7 +65,7 @@ function App() {
             </ul>
           </div>
 
-          <div>
+          <div className="flex flex-col justify-center items-center text-center lg:items-start md:text-start md:items-start">
             <h3 className="text-2xl font-bold mb-3">SERVIÇOS</h3>
             <ul className="space-y-2 text-sm">
               <li><a href="#">Streaming de músicas</a></li>
@@ -123,7 +76,7 @@ function App() {
             </ul>
           </div>
 
-          <div>
+          <div className="flex flex-col justify-center items-center text-center lg:items-start md:text-start md:items-start">
             <h3 className="text-2xl font-bold mb-3">OUTROS</h3>
             <ul className="space-y-2 text-sm">
               <li><a href="#">Suporte</a></li>
@@ -135,7 +88,7 @@ function App() {
           </div>
         </div>
 
-        <p className="text-gray-100">© 2025 melodia. Todos os direitos reservados.</p>
+        <p className="text-center text-gray-100">© 2025 melodia. Todos os direitos reservados.</p>
       </footer>
     </Router>
   )
