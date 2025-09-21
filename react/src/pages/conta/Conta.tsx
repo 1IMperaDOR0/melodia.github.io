@@ -27,6 +27,16 @@ function Conta() {
                 </form>
                 <p className="mt-5">Não tem conta? <a href="#" className="text-[#FF2C63] font-bold">Cadastre-se</a></p>
             </div>
+
+            <div className="bg-[#FF2C63] w-[100vw] text-white py-20 flex flex-col justify-center items-center text-center">
+                <h2 className="text-3xl font-bold mb-5">Benefícios de ter uma conta</h2>
+                <ul className="max-w-150 text-left space-y-3">
+                    <li>✔ Criação de playlists personalizadas</li>
+                    <li>✔ Descoberta de novos artistas</li>
+                    <li>✔ Experiência musical exclusiva</li>
+                    <li>✔ Acesso ao live streaming</li>
+                </ul>
+            </div>
         </>
     )
 }
