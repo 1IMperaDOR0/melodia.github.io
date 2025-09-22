@@ -6,8 +6,8 @@ import Musicas from './pages/musicas/Musicas';
 import Playlists from './pages/playlists/Playlists';
 import Conta from './pages/conta/Conta';
 import Contato from './pages/contato/Contato';
-import MenuWeb from './components/menuWeb';
-import MenuMobile from './components/menuMobile';
+import MenuWeb from './components/MenuWeb';
+import MenuMobile from './components/MenuMobile';
 
 function App() {
   const [isMobile, setIsMobile] = useState(false);
