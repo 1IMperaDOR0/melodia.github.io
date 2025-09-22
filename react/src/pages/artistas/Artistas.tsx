@@ -19,7 +19,7 @@ function Artistas() {
     return (
         <>
             {/* Hero Section */}
-            <div className={`bg-center bg-cover h-[60vh] w-[100vw] text-white p-15 flex flex-col justify-center items-center text-center relative`} style={{backgroundImage: `url(${heroImage})`}}>
+            <div className={`bg-center bg-cover h-[100vh] w-[100vw] text-white p-15 flex flex-col justify-center items-center text-center relative`} style={{backgroundImage: `url(${heroImage})`}}>
                 <div className="absolute inset-0 bg-gradient-to-r from-[#7B00FF]/80 to-[#FF2C63]/80"></div>
                 <div className="relative z-10">
                     <h1 className="text-4xl font-bold mb-5 lg:text-7xl md:text-7xl">NOSSOS ARTISTAS</h1>
@@ -28,7 +28,7 @@ function Artistas() {
             </div>
 
             {/* Featured Artists Section */}
-            <div className="bg-[#7B00FF] w-[100vw] text-white p-15 py-40">
+            <div className="bg-[#7B00FF] w-[100vw] text-white p-15 py-30">
                 <div className="text-center mb-20">
                     <h2 className="text-4xl font-bold mb-6 text-white lg:text-6xl md:text-6xl">ARTISTAS EM DESTAQUE</h2>
                     <div className="w-24 h-1 bg-white mx-auto mb-6"></div>
@@ -38,7 +38,7 @@ function Artistas() {
                 {/* Jessica */}
                 <div className="flex flex-col lg:flex-row md:flex-row items-center mb-32 gap-12 bg-white rounded-3xl shadow-xl overflow-hidden hover:shadow-2xl transition-all duration-500 hover:scale-[1.02] min-h-[600px] border-2 border-gray-200 hover:border-[#7B00FF]/30">
                     <div className="w-full lg:w-1/2 md:w-1/2 relative overflow-hidden">
-                        <img src={jessica} alt="Jessica" className="w-full h-[500px] object-cover hover:scale-110 transition-transform duration-700"/>
+                        <img src={jessica} alt="Jessica" className="w-full object-cover hover:scale-110 transition-transform duration-700"/>
                         <div className="absolute inset-0 bg-gradient-to-t from-[#7B00FF]/20 to-transparent"></div>
                         <div className="absolute bottom-4 left-4 right-4">
                             <div className="flex gap-3">
@@ -104,7 +104,7 @@ function Artistas() {
                 {/* Carol */}
                 <div className="flex flex-col lg:flex-row-reverse md:flex-row-reverse items-center mb-32 gap-12 bg-white rounded-3xl shadow-xl overflow-hidden hover:shadow-2xl transition-all duration-500 hover:scale-[1.02] min-h-[600px] border-2 border-gray-200 hover:border-[#FF2C63]/30">
                     <div className="w-full lg:w-1/2 md:w-1/2 relative overflow-hidden">
-                        <img src={carol} alt="Carol" className="w-full h-[500px] object-cover hover:scale-110 transition-transform duration-700"/>
+                        <img src={carol} alt="Carol" className="w-full object-cover hover:scale-110 transition-transform duration-700"/>
                         <div className="absolute inset-0 bg-gradient-to-t from-[#FF2C63]/20 to-transparent"></div>
                         <div className="absolute bottom-4 left-4 right-4">
                             <div className="flex gap-3">
@@ -170,7 +170,7 @@ function Artistas() {
                 {/* Michael */}
                 <div className="flex flex-col lg:flex-row md:flex-row items-center mb-20 gap-12 bg-white rounded-3xl shadow-xl overflow-hidden hover:shadow-2xl transition-all duration-500 hover:scale-[1.02] min-h-[600px] border-2 border-gray-200 hover:border-gray-400">
                     <div className="w-full lg:w-1/2 md:w-1/2 relative overflow-hidden">
-                        <img src={michael} alt="Michael" className="w-full h-[500px] object-cover hover:scale-110 transition-transform duration-700"/>
+                        <img src={michael} alt="Michael" className="w-full object-cover hover:scale-110 transition-transform duration-700"/>
                         <div className="absolute inset-0 bg-gradient-to-t from-gray-800/20 to-transparent"></div>
                         <div className="absolute bottom-4 left-4 right-4">
                             <div className="flex gap-3">

@@ -41,7 +41,7 @@ function App() {
         </Routes>
       </main>
       
-      <footer className="bg-[#7B00FF] text-white py-10 px-16 flex flex-col items-center gap-5">
+      <footer className="bg-[#7B00FF] text-white py-10 px-15 flex flex-col items-center gap-5">
         <div className="grid grid-cols-1 gap-10 lg:grid-cols-4 md:grid-cols-3">
           <div className="flex flex-col justify-center items-center text-center lg:text-start lg:items-start md:text-start md:items-start">
             <h2 className="text-2xl font-bold mb-3">melodia</h2>
