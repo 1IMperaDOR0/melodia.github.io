@@ -8,7 +8,7 @@ function Home() {
             <div className="bg-[url('../assets/images/hero_section.jpg')] bg-center bg-cover h-[100vh] w-[100vw] text-white p-15 flex flex-col justify-center">
                 <h1 className="text-4xl font-bold mb-5 lg:text-7xl md:text-7xl">VIVA A MÚSICA</h1>
                 <p className="max-w-140 mb-5">A melodia é uma plataforma de música digital que conecta artistas e ouvintes, oferecendo playlists exclusivas, descoberta de novos talentos e experiências sonoras únicas.</p>
-                <a href="#"><button className="max-w-60 px-5 cursor-pointer bg-[#7B00FF] py-3 rounded-full mb-5">RESGISTRE AGORA</button></a>
+                <a href="#"><button className="max-w-60 px-5 cursor-pointer bg-[#7B00FF] py-3 rounded-full mb-5 hover:bg-[#542685]">RESGISTRE AGORA</button></a>
                 <h2 className="text-xl font-bold lg:text-2xl md:text-2xl">LIVE STREAMING NACIONAL!</h2>
             </div>
             <div className="bg-[#FF2C63] w-[100vw] text-white p-15 flex flex-col justify-center items-center text-center">
@@ -34,7 +34,7 @@ function Home() {
                 <p className="max-w-150 mb-10">Inscreva-se com seu e-mail e receba novidades exclusivas, lançamentos e experiências musicais direto na sua caixa de entrada.</p>
                 <div className='bg-white rounded-full min-w-85'>
                     <input type="email" placeholder="Seu e-mail" className='w-auto px-6 py-3 outline-none placeholder-gray-500 text-black lg:w-100 md:w-100' required/>
-                    <button className='cursor-pointer bg-[#7B00FF] px-6 py-3 rounded-r-full'>Inscrever</button>
+                    <button className='cursor-pointer bg-[#7B00FF] px-6 py-3 rounded-r-full hover:bg-[#542685]'>Inscrever</button>
                 </div>
             </div>
         </>
