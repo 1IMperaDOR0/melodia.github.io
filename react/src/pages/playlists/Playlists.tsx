@@ -45,26 +45,29 @@ function Playlists() {
                         <div className="rounded-xl overflow-hidden bg-black max-w-[160px] md:max-w-[200px] lg:max-w-[300px] mx-auto"><img src={play4} className="aspect-square w-full shadow-lg object-cover transition duration-300 ease-in-out hover:scale-105" alt="Playlist" /></div>
                         <div className="rounded-xl overflow-hidden bg-black max-w-[160px] md:max-w-[200px] lg:max-w-[300px] mx-auto"><img src={play5} className="aspect-square w-full shadow-lg object-cover transition duration-300 ease-in-out hover:scale-105" alt="Playlist" /></div>
                         <div className="rounded-xl overflow-hidden bg-black max-w-[160px] md:max-w-[200px] lg:max-w-[300px] mx-auto"><img src={play6} className="aspect-square w-full shadow-lg object-cover transition duration-300 ease-in-out hover:scale-105" alt="Playlist" /></div>
-                        
+
                     </div>
-                     <button
-                            className="bg-[#FF2C63] text-[#4AFF4A] font-bold py-3 px-8 rounded-full mt-4 w-fit shadow-lg hover:bg-[#e02657] transition-colors font-family: Instrument Sans, sans-serif;">
-                             CARREGAR MAIS
-                        </button>
+                    <button
+                        className="bg-[#FF2C63] text-[#FFFFFF] font-bold py-3 px-8 rounded-full mt-4 w-fit shadow-lg hover:bg-[#e02657] transition-colors font-family: Instrument Sans, sans-serif;">
+                        CARREGAR MAIS
+                    </button>
                 </section>
 
                 <section className="w-full flex-col md:flex-row items-center justify-between gap-8 bg-white">
                     <div
-                        className= "bg-[url('../assets/images/smiley-young-friends-together-copy-space.jpg')] bg-center bg-cover md:h-[90vh] md:w-[90vw] lg:h-[100vh] lg:w-[100vw] text-white p-15 flex flex-col justify-center flex-1 flex flex-col gap-4">
-                        <h2 className="text-[#FF2C63] font-bold text-3xl md:text-5xl font-family: Instrument Sans, sans-serif;">
-                            COMPARTILHAR</h2>
-                        <p className="text-[#FF2C63] text-base md:text-lg font-family: Instrument Sans, sans-serif;">
-                            Compartilhe suas playlists com amigos!
-                        </p>
+                        className="bg-[url('../assets/images/smiley-young-friends-together-copy-space.jpg')] bg-center bg-cover md:h-[50vh] md:w-[100vw] lg:h-[100vh] lg:w-[100vw] text-white p-15 flex flex-col justify-center flex-1 flex flex-col gap-3">
+                        <div className="float-left md:ml-5 lg:ml-10">
+                            <h2 className="text-[#FF2C63] font-bold text-3xl md:text-5xl font-family: Instrument Sans, sans-serif;">
+                                COMPARTILHAR</h2>
+                            <p className="text-[#FF2C63] text-base md:text-lg font-family: Instrument Sans, sans-serif;">
+                                Compartilhe suas playlists com amigos!
+                            </p>
+                        
                         <button
                             className="bg-[#FF2C63] text-white font-bold py-3 px-8 rounded-full mt-4 w-fit shadow-lg hover:bg-[#e02657] transition-colors font-family: Instrument Sans, sans-serif;">
                             COMPARTILHAR AGORA
                         </button>
+                        </div>
                     </div>
 
                 </section>
