@@ -144,7 +144,7 @@ O objetivo é criar um espaço vibrante para quem deseja explorar novos estilos,
 ## 🔗 Links
 
 - Solution URL: [https://github.com/1IMperaDOR0/melodia.github.io](https://github.com/1IMperaDOR0/melodia.github.io)
-- Live Site URL: [https://1IMperaDOR0.github.io/melodia/](https://1IMperaDOR0.github.io/melodia/)
+- Live Site URL: [https://1imperador0.github.io/melodia.github.io/](https://1imperador0.github.io/melodia.github.io/)
 
 ---
 
