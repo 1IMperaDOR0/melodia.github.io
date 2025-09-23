@@ -24,7 +24,7 @@ function App() {
   }, []);
 
   return (
-    <Router>
+    <Router basename='/melodia'>
       <header className="bg-[#7B00FF] text-white h-20 px-15 flex justify-between items-center">
         <h1 className="text-2xl font-bold">melodia</h1>
         {isMobile ? <MenuMobile /> : <MenuWeb />}
