@@ -20,7 +20,7 @@ O objetivo é criar um espaço vibrante para quem deseja explorar novos estilos,
 2. Vá para a pasta react:
 
    ```bash
-   cd react
+   cd melodia.github.io/react
    ```
 
 3. Instale as dependências:
