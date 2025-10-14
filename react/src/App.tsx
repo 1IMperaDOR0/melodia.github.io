@@ -88,7 +88,7 @@ function App() {
           </div>
         </div>
 
-        <p className="text-center text-gray-100">© 2025 melodia. Todos os direitos reservados.</p>
+        <p className="text-center text-gray-100 pt-5">© 2025 melodia. Todos os direitos reservados.</p>
       </footer>
     </Router>
   )
