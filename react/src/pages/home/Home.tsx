@@ -5,7 +5,7 @@ import michael from '../../assets/images/michael.png'
 function Home() {
     return (
         <>
-            <div className="bg-[url('../assets/images/hero_section.jpg')] bg-center bg-cover h-[100vh] w-[100vw] text-white p-15 flex flex-col justify-center">
+            <div className="bg-[#a594b8] lg:bg-[url('../assets/images/hero_section.jpg')] md:bg-[url('../assets/images/hero_section.jpg')] bg-center bg-cover h-[100vh] w-[100vw] text-white p-15 flex flex-col justify-center">
                 <h1 className="text-4xl font-bold mb-5 lg:text-7xl md:text-7xl">VIVA A MÚSICA</h1>
                 <p className="max-w-140 mb-5">A melodia é uma plataforma de música digital que conecta artistas e ouvintes, oferecendo playlists exclusivas, descoberta de novos talentos e experiências sonoras únicas.</p>
                 <a href="#"><button className="max-w-60 px-5 cursor-pointer bg-[#7B00FF] py-3 rounded-full mb-5 hover:bg-[#542685]">RESGISTRE AGORA</button></a>
