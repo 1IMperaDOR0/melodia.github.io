@@ -26,12 +26,12 @@ function App() {
 
   return (
     <Router>
-      <header className="bg-[#7B00FF] text-white h-20 px-15 flex justify-between items-center">
+      <header className="fixed top-0 w-full z-50 bg-[#7B00FF] text-white h-20 px-15 flex justify-between items-center">
         <h1 className="text-2xl font-bold">melodia</h1>
         {isMobile ? <MenuMobile /> : <MenuWeb />}
       </header>
 
-      <main>
+      <main className="mt-[80px]">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/artistas" element={<Artistas />} />
