@@ -32,8 +32,8 @@ function Home() {
             <div className="bg-[#FF2C63] w-[100vw] text-white py-45 px-15 flex flex-col justify-center items-center text-center">
                 <h1 className="text-4xl font-bold mb-5 lg:text-7xl md:text-7xl">INSCREVA-SE</h1>
                 <p className="max-w-150 mb-10">Inscreva-se com seu e-mail e receba novidades exclusivas, lançamentos e experiências musicais direto na sua caixa de entrada.</p>
-                <div className='bg-white rounded-full min-w-85'>
-                    <input type="email" placeholder="Seu e-mail" className='w-auto px-6 py-3 outline-none placeholder-gray-500 text-black lg:w-100 md:w-100' required/>
+                <div className='bg-white rounded-full lg:min-w-85 md:min-w-85 min-w-60'>
+                    <input type="email" placeholder="Seu e-mail" className='w-32 px-6 py-3 outline-none placeholder-gray-500 text-black lg:w-100 md:w-100' required/>
                     <button className='cursor-pointer bg-[#7B00FF] px-6 py-3 rounded-r-full hover:bg-[#542685]'>Inscrever</button>
                 </div>
             </div>
